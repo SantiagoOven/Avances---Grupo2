@@ -91,3 +91,87 @@ footer {
     font-size: 1.2em;
     color: #555;
 }
+body {
+    background-color: #fdf6e3;
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+    margin: 0;
+}
+
+header {
+    background-color: #ff6f61;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+}
+
+nav {
+    margin-top: 1rem;
+}
+
+nav a {
+    margin: 0 1rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    max-width: 960px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.uxui-section {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+}
+
+.wireframe {
+    border: 2px dashed #bbb;
+    padding: 1em;
+    text-align: center;
+    font-style: italic;
+    color: #666;
+    background-color: #fef6e4;
+}
+
+.feedback-box {
+    border: 1px solid #ccc;
+    padding: 1em;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+}
+
+.feedback-box label {
+    display: block;
+    margin-top: 1em;
+}
+
+.feedback-box input,
+.feedback-box textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.feedback-box button {
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #ff6f61;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+}
